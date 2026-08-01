@@ -1,0 +1,182 @@
+/* ===============================
+   Global Styling
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+
+    background:#f8f8f8;
+    min-height:100vh;
+
+}
+
+
+/* ===============================
+   Header
+================================ */
+
+header{
+
+    background:#286420;
+    color:white;
+    text-align:center;
+    padding:25px;
+
+}
+
+
+header h1{
+
+    font-size:32px;
+
+}
+
+
+
+/* ===============================
+   Search Section
+================================ */
+
+.search-user{
+
+    display:flex;
+    justify-content:center;
+
+    margin:30px 0;
+
+}
+
+
+#searchUser{
+
+    width:90%;
+    max-width:500px;
+
+    padding:14px;
+
+    border-radius:25px;
+
+    border:1px solid #ddd;
+
+    font-size:16px;
+
+}
+
+
+
+/* ===============================
+   Users Container
+================================ */
+
+#usersContainer{
+
+    width:90%;
+
+    max-width:800px;
+
+    margin:auto;
+
+    display:grid;
+
+    gap:20px;
+
+}
+
+
+
+/* ===============================
+   User Card
+================================ */
+
+.user-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.user-card h2{
+
+    color:#ff5200;
+
+    margin-bottom:10px;
+
+}
+
+
+.user-card p{
+
+    margin:8px 0;
+
+}
+
+
+
+/* ===============================
+   Delete Button
+================================ */
+
+.deleteUserBtn{
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:20px;
+
+    background:#e63946;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
+
+
+.deleteUserBtn:hover{
+
+    opacity:0.8;
+
+}
+
+
+
+/* ===============================
+   Mobile Responsive
+================================ */
+
+@media(max-width:600px){
+
+
+    header h1{
+
+        font-size:24px;
+
+    }
+
+
+    .user-card{
+
+        padding:18px;
+
+    }
+
+
+}

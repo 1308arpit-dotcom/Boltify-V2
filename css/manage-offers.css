@@ -1,0 +1,198 @@
+/* ===============================
+   Global Styling
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+
+    background:#f8f8f8;
+    min-height:100vh;
+
+}
+
+
+/* ===============================
+   Header
+================================ */
+
+header{
+
+    background:#246e1d;
+    color:white;
+    padding:25px;
+    text-align:center;
+
+}
+
+
+header h1{
+
+    font-size:32px;
+
+}
+
+
+/* ===============================
+   Form Section
+================================ */
+
+.offer-form{
+
+    width:90%;
+    max-width:500px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+
+.offer-form input,
+.offer-form select{
+
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+
+}
+
+
+/* ===============================
+   Add Button
+================================ */
+
+#addOfferBtn{
+
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+
+    background:#ff5200;
+    color:white;
+
+    border:none;
+    border-radius:25px;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+#addOfferBtn:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+/* ===============================
+   Admin Offer Cards
+================================ */
+
+#adminOffersContainer{
+
+    width:90%;
+    max-width:800px;
+    margin:20px auto;
+
+    display:grid;
+    gap:20px;
+
+}
+
+
+.admin-offer-card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.admin-offer-card h2{
+
+    color:#ff5200;
+    margin-bottom:10px;
+
+}
+
+
+.admin-offer-card p{
+
+    margin:8px 0;
+
+}
+
+
+/* ===============================
+   Delete Button
+================================ */
+
+.deleteBtn{
+
+    background:#e63946;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    margin-top:10px;
+
+}
+
+
+.deleteBtn:hover{
+
+    opacity:0.8;
+
+}
+
+
+/* ===============================
+   Mobile Responsive
+================================ */
+
+@media(max-width:600px){
+
+    header h1{
+
+        font-size:24px;
+
+    }
+
+
+    .offer-form{
+
+        width:95%;
+
+    }
+
+}

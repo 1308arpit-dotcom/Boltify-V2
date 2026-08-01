@@ -1,0 +1,189 @@
+/* ==========================
+BODY
+========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/821598798/vector/vector-hand-drawn-illustration-of-fast-food.jpg?s=170667a&w=0&k=20&c=j2kcoEakiVByzwPXudDZqywBUxzRw9aecbT6QoyHdgU=');
+   background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* ==========================
+NAVBAR
+========================== */
+
+.navbar{
+
+       background: #bde83c;
+border-radius:40px;
+
+    color:rgb(124, 25, 25);
+
+    padding:20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.backBtn{
+
+    color:rgb(128, 17, 17);
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    font-size:20px;
+   font-style: italic;
+
+}
+
+/* ==========================
+LAYOUT
+========================== */
+
+.cart-page{
+
+    display:flex;
+
+    gap:30px;
+
+    padding:30px;
+
+}
+
+#cartItems{
+
+    flex:2;
+    color:rgb(88, 22, 22);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.bill-box{
+
+    flex:1;
+
+    background:rgba(255, 255, 255, 0.957);
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+
+    height:fit-content;
+
+}
+
+.bill-box p,
+.bill-box h2{
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#fc8019;
+
+    color:rgba(255, 255, 255, 0.918);
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    margin-top:20px;
+
+    font-size:20px;
+
+}
+/* ==========================
+Cart Card
+========================== */
+
+.cart-card{
+
+    background:rgba(255, 255, 255, 0.903);
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+
+}
+
+.cart-card h3{
+
+    margin-top:0;
+
+}
+
+.cart-card p{
+
+    margin:8px 0;
+
+}
+/* ==========================
+Quantity Controls
+========================== */
+
+.quantity-controls{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin:15px 0;
+
+}
+
+.quantity-controls button{
+
+    width:35px;
+
+    height:35px;
+
+    border:none;
+
+    background:#fc8019;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    border-radius:5px;
+
+}
+
+.quantity-controls span{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    min-width:25px;
+
+    text-align:center;
+
+}

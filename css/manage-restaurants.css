@@ -1,0 +1,83 @@
+body{
+
+margin:0;
+
+font-family:Arial,sans-serif;
+
+background:#f5f5f5;
+
+}
+
+.container{
+
+width:90%;
+
+margin:30px auto;
+
+}
+
+.add-form{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:15px;
+
+margin-bottom:30px;
+
+}
+
+.add-form input{
+
+padding:12px;
+
+}
+
+.add-form button{
+
+padding:12px;
+
+background:#fc8019;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+.restaurant-card{
+
+background:white;
+
+padding:20px;
+
+margin:20px 0;
+
+border-radius:10px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+box-shadow:0 5px 10px rgba(0,0,0,.15);
+
+}
+
+.restaurant-card button{
+
+background:red;
+
+color:white;
+
+border:none;
+
+padding:10px 15px;
+
+cursor:pointer;
+
+}

@@ -1,0 +1,68 @@
+body  {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/821598798/vector/vector-hand-drawn-illustration-of-fast-food.jpg?s=170667a&w=0&k=20&c=j2kcoEakiVByzwPXudDZqywBUxzRw9aecbT6QoyHdgU=');
+   background-size: cover;
+   
+display:flex;
+justify-content:center;
+
+align-items:center;
+   background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.admin-login{
+background:white;
+padding:40px;
+border:black solid;
+border-radius:100px;
+
+width:350px;
+font-family:cursive;
+box-shadow: 5px 20px rgba(0,0,0,.2);
+
+
+
+}
+
+.admin-login h1{
+padding:10px;
+text-align:center;
+font-family:'Times New Roman', Times, serif;
+color:#a33607;
+font-size:40px;
+
+}
+
+.admin-login input{
+
+width:100%;
+
+padding:12px;
+
+margin:12px 0;
+
+box-sizing:border-box;
+
+}
+
+.admin-login button{
+
+width:100%;
+font-weight:bold;
+padding:16px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background:#fe8725;
+
+color:white;
+
+border:2px solid black;
+border-radius:50px;
+cursor:pointer;
+
+font-size:16px;
+
+}
+.admin-login button:hover{
+background:rgb(15, 54, 15);
+}

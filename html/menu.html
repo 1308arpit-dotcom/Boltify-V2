@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Menu</title>
+
+    <link rel="stylesheet" href="../css/menu.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================
+         Navbar
+    =========================== -->
+
+    <header class="navbar">
+
+        <h1 id="restaurantName">
+
+            Restaurant Name
+
+        </h1>
+
+        <a href="index.html" class="backBtn">
+
+            ← Back to Home🏠
+
+        </a>
+
+    </header>
+
+    <!-- ==========================
+         Menu Container===  -->
+
+         <div class="page-layout">
+
+   <section class="menu-section">
+
+    <div id="menuContainer"></div>
+
+</section>
+
+</div>
+<!-- ==========================
+     Sticky Cart Bar
+========================== -->
+
+<div id="cartBar" class="cart-bar hidden">
+
+    <div>
+
+        <strong>
+
+            <span id="cartCount">0</span> Items
+
+        </strong>
+
+        •
+
+        ₹<span id="cartAmount">0</span>
+
+    </div>
+
+    <button id="viewCartBtn">
+
+        View Cart →
+
+    </button>
+
+</div>
+    <script src="../js/data.js"></script>
+
+    <script src="../js/menu.js"></script>
+
+</body>
+
+</html>

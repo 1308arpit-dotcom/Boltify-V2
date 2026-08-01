@@ -1,0 +1,214 @@
+/* ===============================
+   Global Styling
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+
+    background:#f8f8f8;
+    min-height:100vh;
+
+}
+
+
+
+/* ===============================
+   Header
+================================ */
+
+header{
+
+    background:#206924;
+
+    color:rgb(243, 241, 241);
+
+    padding:25px;
+
+    text-align:center;
+
+    button{
+   
+    margin-top:25px;
+
+    padding:12px 35px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#632714fb;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    }
+}
+
+
+header h1{
+
+    font-size:32px;
+
+}
+
+
+
+
+/* ===============================
+   Profile Card
+================================ */
+
+main{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    margin-top:40px;
+
+}
+
+
+.profile-card{
+
+    background:white;
+
+    width:90%;
+
+    max-width:450px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+    text-align:center;
+
+}
+
+
+
+.profile-card h2{
+
+    color:#ff5200;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.profile-card p{
+
+    font-size:18px;
+
+    margin:15px 0;
+
+    color:#333;
+
+}
+
+
+
+/* ===============================
+   Logout Button
+================================ */
+
+#logoutBtn{
+
+    margin-top:25px;
+
+    padding:12px 35px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#ff5200;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+#logoutBtn:hover{
+
+    transform:scale(1.05);
+
+}
+#homeBtn{
+    
+    margin-top:25px;
+
+    padding:12px 35px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#ff5200;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+
+
+/* ===============================
+   Mobile Responsive
+================================ */
+
+@media(max-width:600px){
+
+
+    header h1{
+
+        font-size:24px;
+
+    }
+
+
+    .profile-card{
+
+        width:95%;
+
+        padding:20px;
+
+    }
+
+
+}

@@ -1,0 +1,261 @@
+/* ==========================================
+            Boltify Offers Page
+========================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 60px;
+border-radius: 40px;
+background:rgb(229, 233, 26);
+
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+
+position:sticky;
+
+top:0;
+
+z-index:100;
+
+}
+body{
+
+    background:#0e0f0fc0;
+
+    padding:40px;
+
+}
+
+/* ==============================
+          Heading
+============================== */
+
+header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+header h1{
+
+    color:#FC8019;
+
+    font-size:40px;
+
+    margin:10px;
+
+}
+
+header p{
+
+    color:#666;
+
+    font-size:18px;
+
+}
+
+/* ==============================
+      Offers Grid
+============================== */
+
+.offers-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:40px;
+
+}
+
+/* ==============================
+        Offer Card
+============================== */
+
+.offer-card{
+
+    background:rgb(241, 177, 177);
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.offer-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.offer-badge{
+
+    display:inline-block;
+
+    background:#42b633;
+
+    color:rgb(250, 245, 245);
+
+    padding:8px 15px;
+
+    border-radius:25px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+.offer-card h2{
+
+    color:#3b3838;
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+}
+
+.offer-card p{
+
+    color:#685d5d;
+
+    margin-bottom:8px;
+
+}
+
+.offer-card h3{
+
+    color:#1a140f;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+    letter-spacing:2px;
+
+}
+
+.copyBtn{
+
+    width:100%;
+
+    border-radius:50px;
+
+    background:#FC8019;
+
+    color:white;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.copyBtn:hover{
+
+    background:#49b32f;
+
+}
+/* ==============================
+        Search Section
+============================== */
+
+.search-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:35px;
+
+}
+
+#searchOffer{
+
+    width:450px;
+
+    max-width:90%;
+
+    padding:15px 20px;
+
+    border:2px solid #FC8019;
+
+    border-radius:50px;
+
+    outline:none;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+#searchOffer:focus{
+
+    box-shadow:0 0 15px rgba(252,128,25,.25);
+
+}
+.filter-section{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin:20px 0;
+    flex-wrap:wrap;
+}
+
+.filter-btn{
+    padding:10px 20px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    background:#f1f1f1;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.filter-btn:hover{
+    background:#37f05f;
+    color:white;
+}
+
+.filter-btn.active{
+    background:#ff5200;
+    color:white;
+}
+.expiry-status{
+
+    font-weight:bold;
+    margin:10px 0;
+
+}

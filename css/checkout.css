@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/821598798/vector/vector-hand-drawn-illustration-of-fast-food.jpg?s=170667a&w=0&k=20&c=j2kcoEakiVByzwPXudDZqywBUxzRw9aecbT6QoyHdgU=');
+   background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+a.backBtn{
+    color:white;
+    font-weight: 900;
+    font-size: larger;
+}
+.checkout-container{
+
+    width:450px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.15);
+
+}
+
+.checkout-container input,
+.checkout-container textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:12px 0;
+
+    box-sizing:border-box;
+
+}
+
+.checkout-container button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#fc8019;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
